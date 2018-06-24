@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Gallery</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Setting</string>
+    <string name="action_about">About</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_detail">Detail</string>
+
+    <string name="title_send">Send</string>
+    <string name="title_delete">Delete</string>
+    <string name="title_bluetooth">Bluetooth</string>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Welcome</string>
+
+    <string name="gallery">Gallery</string>
+    <string name="explore">Explore</string>
+    <string name="album">Abum</string>
+    <string name="collection">Collection</string>
+    <string name="map_photos">Map Photos</string>
+
+    <string name="toast_wallpaper_set">Wallpapaer updated!</string>
+    <string name="toast_wallpaper_set_failed">Sorry! Unable to set wallpapaer</string>
+
+    <string name="title_shop">Shop</string>
+    <string name="title_gifts">Gifts</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_profile">Profile</string>
+    <string name="about">Đồ án Album ảnh\n16HCB-Nhóm 14\n1642027 Lâm Thiên Hưng\n1642034 Trương Tuấn Kiệt\n1642082 Nguyễn Quốc Tú\n1642092 Nguyễn Công Thành</string>
+</resources>

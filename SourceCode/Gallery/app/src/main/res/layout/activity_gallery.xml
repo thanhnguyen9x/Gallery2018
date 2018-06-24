@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_container"
+    android:background="@android:color/white"
+    tools:context="com.example.totoro.gallery.Controller.GalleryActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        app:contentInsetEnd="0dp"
+        app:contentInsetStart="0dp"
+        android:elevation="1dp">
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/title_background"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:clickable="false"
+        android:elevation="1dp">
+
+
+        <TextView
+            android:id="@+id/title_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:fontFamily="@font/roboto_thin"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+    </RelativeLayout>
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+
+        android:id="@+id/drawer_layout"
+        >
+
+        <FrameLayout
+            android:id="@+id/main_contain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:id="@+id/frame_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="48dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </FrameLayout>
+
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/colorPrimaryDark"
+                android:elevation="20dp"
+                app:tabGravity="center"
+                app:tabIndicatorColor="@color/tabTextColor"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/selected_text_color"
+                app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+                app:tabTextColor="@color/unselected_text_color" />
+        </FrameLayout>
+
+        <!--<android.support.design.widget.CoordinatorLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--</android.support.design.widget.CoordinatorLayout>-->
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigation"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@color/navigationBarColor"
+            android:fitsSystemWindows="true">
+
+            <android.support.design.widget.NavigationView
+                android:id="@+id/navigation_drawer_top"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                app:itemIconTint="@color/black"
+                app:itemTextColor="@color/black"
+                app:menu="@menu/menu_top_drawer" />
+
+            <android.support.design.widget.NavigationView
+                android:id="@+id/navigation_drawer_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                app:itemIconTint="@color/black"
+                app:itemTextColor="@color/black"
+                app:menu="@menu/menu_bottom_drawer" />
+
+        </android.support.design.widget.NavigationView>
+
+    </android.support.v4.widget.DrawerLayout>
+
+</FrameLayout>

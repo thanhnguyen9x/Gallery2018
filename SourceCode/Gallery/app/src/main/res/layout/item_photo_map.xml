@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_marker_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/markerIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/custom_marker"/>
+    <TextView
+        android:id="@+id/markerLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="view image"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_thin"/>
+</LinearLayout>

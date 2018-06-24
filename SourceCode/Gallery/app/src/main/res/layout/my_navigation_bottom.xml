@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_gravity="bottom"
+    android:background="@drawable/ic_bg_navigation_btn"
+    android:gravity="center"
+    app:itemBackground="@android:color/transparent"
+    app:itemIconTint="@android:color/white"
+    app:itemTextColor="@android:color/white"
+    app:menu="@menu/navigation_menu">
+
+    <ImageButton
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/send"
+        android:background="@android:color/transparent"
+        android:focusable="false"/>
+
+    <ImageButton
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="center"
+        android:src="@drawable/delete"
+        android:background="@android:color/transparent"
+        android:focusable="false"/>
+
+</LinearLayout>

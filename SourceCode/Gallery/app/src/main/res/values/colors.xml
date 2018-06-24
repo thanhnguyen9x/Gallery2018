@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#cf1d1d</color>-->
+    <!--<color name="colorPrimaryDark">#c20303</color>-->
+
+    <!--<color name="colorPrimary">#148e8e8e</color>-->
+    <!--<color name="colorPrimaryDark">#14d4d4d4</color>-->
+
+
+    <!--<color name="colorPrimary">#424242</color>-->
+    <!--<color name="colorPrimaryDark">#212121</color>-->
+
+    <!--<color name="colorPrimary">#C51162</color>-->
+    <!--<color name="colorPrimaryDark">#C51162</color>-->
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+
+    <color name="colorAccent">#c8e8ff</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="windowBackground">#ffffff</color>
+
+    <color name="navigationBarColor">#c4c4c4</color>
+    <color name="tabTextColor">#FFF</color>
+    <color name="tabIndicatorColor">#FF80AB</color>
+
+    <color name="status_bar_color">#ffffff</color>
+    <color name="selected_text_color">#000000</color>
+    <color name="unselected_text_color">#9E9E9E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="fuzzy">#7b000000</color>
+    <color name="bgBottomNavigation">#64000000</color>
+    <color name="btnDelete">#00e676</color>
+    <color name="btnPhotoBg">#fafafa</color>
+    <color name="dialogDeletePhotoBg">#5e000000</color>
+    <color name="dialogAboutBg">#d6000000</color>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_id"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/video_id"
+            android:icon="@drawable/ic_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/film_id"
+            android:icon="@drawable/ic_star"
+            android:title="Ratting" />
+        <item
+            android:id="@+id/about_id"
+            android:icon="@drawable/ic_about"
+            android:title="About" />
+    </group>
+</menu>

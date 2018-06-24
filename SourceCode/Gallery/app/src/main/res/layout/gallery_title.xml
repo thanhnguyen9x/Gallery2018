@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvGalleryTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:fontFamily="@font/cairo_extralight"
+    android:gravity="center"
+    android:text="@string/gallery"
+    android:textAlignment="center"
+    android:textAllCaps="false"
+    android:textColor="@color/textColorPrimary"
+    android:textSize="@dimen/title_font_size"
+    android:textStyle="normal|bold"
+    android:typeface="normal"
+    tools:text="@string/gallery"></TextView>
